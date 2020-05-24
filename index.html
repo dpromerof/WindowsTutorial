@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tutorial Ventanas</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1> Las Ventanas </h1>
+    <div class="contenedor">
+      <section class="seccion1">
+        <p onmouseover="muestraVentanaChrome()"><b>Google</b> está dentro de una ventana</p>
+        <p onmouseover="muestraVentanaZoom()"><b>Zoom</b> está dentro de una ventana</p>
+        <p onmouseover="muestraVentanaBlogNotas()"><b>Blog de notas</b> está dentro de una ventana</p>
+        <p onmouseover="muestraVentanaCalculadora()"><b>Calculadora</b> está dentro de una ventana</p>
+      </section>
+      <section class="seccion2">
+        <img id="ejemploVentana" class="imagenEjemplo">
+      </section>
+    </div>
+    <h1> Los Cursores </h1>
+    <div class="contenedor">
+      <section class="seccion1">
+        <p onmouseover="muestraCursorFlecha()">Cursor tipo <b>flecha</b></p>
+        <p onmouseover="muestraCursorTexto()">Cursor tipo <b>texto</b></p>
+        <p onmouseover="muestraCursorMano()">Cursor tipo <b>mano</b></p>
+        <p onmouseover="muestraCursorRedimensionar()">Cursor tipo <b>redimensionar</b></p>
+      </section>
+      <section class="seccion2">
+        <img id="ejemploCursor" class="imagenEjemplo">
+      </section>
+    </div>
+    <h1> Los Botones de Ventana: Minimizar, Maximizar y Cerrar </h1>
+    <div class="contenedor">
+      <section class="seccion1">
+        <p onmouseover="muestraBotonMinimizar()"><b>Minimizar</b></p>
+        <p onmouseover="muestraBotonMaximizar()"><b>Maximizar</b></p>
+        <p onmouseover="muestraBotonCerrar()"><b>Cerrar</b></p>
+      </section>
+      <section class="seccion2">
+        <img id="ejemploBotonVentana" class="imagenEjemplo">
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
