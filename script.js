@@ -33,6 +33,11 @@ function inicializaColorFondoParrafosSeccion3() {
     document.getElementsByTagName("p")[i].style.backgroundColor="white";
   }
 }
+function inicializaColorFondoParrafosSeccion4() {
+  for (var i=11; i<15; i++) {
+    document.getElementsByTagName("p")[i].style.backgroundColor="white";
+  }
+}
 function muestraCursorFlecha() {
   document.getElementById("ejemploCursor").src="cursorArrow.png";
   inicializaColorFondoParrafosSeccion2();
@@ -67,4 +72,24 @@ function muestraBotonCerrar () {
   document.getElementById("ejemploBotonVentana").src="botonVentanaCerrar.png";
   inicializaColorFondoParrafosSeccion3();
   document.getElementsByTagName("p")[10].style.backgroundColor="#ffff00";
+}
+function muestraPestanas () {
+  document.getElementById("ejemploVentanaGoogle").src="pestanas.png";
+  inicializaColorFondoParrafosSeccion4();
+  document.getElementsByTagName("p")[11].style.backgroundColor="#ffff00";
+}
+function muestraBotonesNavegacion () {
+  document.getElementById("ejemploVentanaGoogle").src="botonesNavegacion.png";
+  inicializaColorFondoParrafosSeccion4();
+  document.getElementsByTagName("p")[12].style.backgroundColor="#ffff00";
+}
+function muestraOmnibox () {
+  document.getElementById("ejemploVentanaGoogle").src="omnibox.png";
+  inicializaColorFondoParrafosSeccion4();
+  document.getElementsByTagName("p")[13].style.backgroundColor="#ffff00";
+}
+function muestraMarcadores () {
+  document.getElementById("ejemploVentanaGoogle").src="marcadores.png";
+  inicializaColorFondoParrafosSeccion4();
+  document.getElementsByTagName("p")[14].style.backgroundColor="#ffff00";
 }
