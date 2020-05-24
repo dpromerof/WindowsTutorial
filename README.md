@@ -1,4 +1,4 @@
 # WindowsTutorial
-Basic windows tutotial
+Basic windows tutorial
 
 Demo: https://dpromerof.github.io/WindowsTutorial/index.html
