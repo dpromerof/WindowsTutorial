@@ -19,7 +19,7 @@ function muestraVentanaCalculadora () {
   document.getElementsByTagName("p")[3].style.backgroundColor="#ffff00";
 }
 function muestraVentanaPaint () {
-  document.getElementById("ejemploVentana").src="ventanaPaint.png";
+  document.getElementById("ejemploVentana").src="ventanaDePaint.png";
   inicializaColorFondoParrafosSeccion1();
   document.getElementsByTagName("p")[4].style.backgroundColor="#ffff00";
 }
