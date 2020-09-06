@@ -21,7 +21,7 @@ function muestraVentanaCalculadora () {
 function muestraVentanaPaint () {
   document.getElementById("ejemploVentana").src="ventanaPaint.png";
   inicializaColorFondoParrafosSeccion1();
-  document.getElementsByTagName("p")[3].style.backgroundColor="#ffff00";
+  document.getElementsByTagName("p")[4].style.backgroundColor="#ffff00";
 }
 function inicializaColorFondoParrafosSeccion1() {
   for (var i=0; i<4; i++) {
