@@ -24,7 +24,7 @@ function muestraVentanaPaint () {
   document.getElementsByTagName("p")[4].style.backgroundColor="#ffff00";
 }
 function inicializaColorFondoParrafosSeccion1() {
-  for (var i=0; i<4; i++) {
+  for (var i=0; i<5; i++) {
     document.getElementsByTagName("p")[i].style.backgroundColor="white";
   }
 }
