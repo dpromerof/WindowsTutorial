@@ -18,6 +18,11 @@ function muestraVentanaCalculadora () {
   inicializaColorFondoParrafosSeccion1();
   document.getElementsByTagName("p")[3].style.backgroundColor="#ffff00";
 }
+function muestraVentanaPaint () {
+  document.getElementById("ejemploVentana").src="ventanaPaint.png";
+  inicializaColorFondoParrafosSeccion1();
+  document.getElementsByTagName("p")[3].style.backgroundColor="#ffff00";
+}
 function inicializaColorFondoParrafosSeccion1() {
   for (var i=0; i<4; i++) {
     document.getElementsByTagName("p")[i].style.backgroundColor="white";
